@@ -32,9 +32,11 @@ npm run build
 ```sh
 npm install --save-dev cypress
 npx cypress open
+npx cypress run
 ```
 
-### let's write a test for your Vue app. We'll create a new test file in the cypress/integration folder. You can name it app_spec.js
+### let's write a test for your Vue app. We'll create a new test file in the 
+cypress/integration folder. You can name it app_spec.js
 describe('Vue app basic tests', () => {
 beforeEach(() => {
 // Point to where your Vue app is hosted
@@ -77,7 +79,7 @@ git add .
 git commit -m "Initial commit"
 
 
-    https://github.com/cfphpflex/rplvuejs.git
-git remote add origin https://github.com/your-username/your-repository.git
+    
+git remote add origin https://github.com/cfphpflex/rplvuejs.git
 git push -u origin master
 
