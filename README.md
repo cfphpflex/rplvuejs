@@ -33,6 +33,8 @@ npm run build
 npm install --save-dev cypress
 npx cypress open
 npx cypress run
+npm uninstall cypress
+
 ```
 
 ### let's write a test for your Vue app. We'll create a new test file in the 
